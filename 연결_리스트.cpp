@@ -219,13 +219,13 @@ int main() {
                 println("데이터가 없습니다. 삽입할 수 없습니다.");
                 break;
             }
-            int position;
+            int wichi;
             println("삽입할 위치를 입력하세요:");
             searchAll();
-            input(position, "위치: ");
+            input(wichi, "위치: ");
             input(name, "이름을 입력하세요: ");
             input(phone, "전화번호를 입력하세요: ");
-            insertNode(position, name, phone);
+            insertNode(wichi, name, phone);
             break;
         case 4:
             searchAll();
