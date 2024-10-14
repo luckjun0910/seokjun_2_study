@@ -13,7 +13,7 @@ Node* head = NULL;
 void addNode(string name,string phone) {
     // 전화번호 중복 체크
     for (Node* current = head; current != NULL; current = current->link) { //링크가 없어질때 까지 반복
-        if (current->phone == phone) { //원래 있던 폰과 위에 매개변수로 들어본 폰이 똑같은지 확인
+        if (current->phone == phone) { //원래 있던 폰과 위에 입력으로 들어온 폰이 똑같은지 확인
             println("전화번호가 중복입니다. 추가할 수 없습니다.");
             return;
         }
