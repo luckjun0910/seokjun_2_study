@@ -48,7 +48,7 @@ void deleteNode() {
     int sunteck;
     input(sunteck, "삭제할 노드의 번호를 입력하세요: ");
 
-    if (sunteck <= 0 || sunteck > len(memory)) { // 유효성 검사 수정
+    if (sunteck <= 0 || sunteck > len(memory)) { //선택한 번호가 0보다 작거나 노드? 크기보다 크면 안됨
         println("잘못된 번호입니다.");
         return;
     }
